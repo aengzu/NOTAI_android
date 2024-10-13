@@ -13,6 +13,10 @@ import com.iguana.notetaking.recording.RecordFragment
 
 class SideBarFragment : Fragment() {
 
+    enum class Tab {
+        RECORD, AI
+    }
+
     companion object {
         fun newInstance() = SideBarFragment()
     }
@@ -62,16 +66,23 @@ class SideBarFragment : Fragment() {
 
     // AI 탭으로 전환하는 메서드
     fun setAiTab() {
-        binding.sideBarViewPager.currentItem = 1  // AI 탭의 인덱스는 1
+        binding.sideBarViewPager.currentItem = Tab.AI.ordinal
     }
 
     // 녹음 탭으로 전환하는 메서드
     fun setRecordTab() {
-        binding.sideBarViewPager.currentItem = 0  // 녹음 탭의 인덱스는 0
+        binding.sideBarViewPager.currentItem = Tab.RECORD.ordinal
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+    fun switchToTab(tab: SideBarFragment.Tab) {
+        when (tab) {
+            Tab.RECORD -> setRecordTab()
+            Tab.AI -> setAiTab()
+        }
     }
 }
