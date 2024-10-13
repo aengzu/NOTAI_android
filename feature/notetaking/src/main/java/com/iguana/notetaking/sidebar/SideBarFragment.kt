@@ -60,6 +60,16 @@ class SideBarFragment : Fragment() {
         aiFragment?.updateContentForPage(pageNumber)
     }
 
+    // AI 탭으로 전환하는 메서드
+    fun setAiTab() {
+        binding.sideBarViewPager.currentItem = 1  // AI 탭의 인덱스는 1
+    }
+
+    // 녹음 탭으로 전환하는 메서드
+    fun setRecordTab() {
+        binding.sideBarViewPager.currentItem = 0  // 녹음 탭의 인덱스는 0
+    }
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

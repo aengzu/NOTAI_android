@@ -3,6 +3,7 @@ package com.iguana.notetaking
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -52,6 +53,23 @@ class NotetakingActivity : AppCompatActivity() {
             binding.toolbar.btnText.setOnClickListener {
                 pdfViewerFragment.getCurrentPdfPageFragment()?.addTextBox()
             }
+
+            // 툴바의 AI 버튼 클릭 리스너 설정
+            binding.toolbar.btnAI.setOnClickListener {
+                binding.sideBarContainer.visibility = View.VISIBLE
+                //  AI 탭으로 전환
+                val sideBarFragment = supportFragmentManager.findFragmentById(R.id.side_bar_container) as? SideBarFragment
+                sideBarFragment?.setAiTab()
+            }
+
+            // 툴바의 녹음 버튼 클릭 리스너 설정
+            binding.toolbar.btnRecord.setOnClickListener {
+                binding.sideBarContainer.visibility = View.VISIBLE
+                // 녹음 탭으로 설정
+                val sideBarFragment = supportFragmentManager.findFragmentById(R.id.side_bar_container) as? SideBarFragment
+                sideBarFragment?.setRecordTab()
+            }
+
         } else {
             Log.e("NotetakingActivity", "PDF URI is null in Activity") // URI가 null인 경우 로그
         }
