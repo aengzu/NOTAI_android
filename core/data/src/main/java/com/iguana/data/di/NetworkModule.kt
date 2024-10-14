@@ -40,4 +40,10 @@ object NetworkModule {
     fun provideAnnotationApi(retrofit: Retrofit): AnnotationApi {
         return retrofit.create(AnnotationApi::class.java)
     }
+
+    @Provides
+    @Singleton
+    fun provideSummarizeApi(retrofit: Retrofit): com.iguana.data.remote.api.SummarizeApi {
+        return retrofit.create(com.iguana.data.remote.api.SummarizeApi::class.java)
+    }
 }

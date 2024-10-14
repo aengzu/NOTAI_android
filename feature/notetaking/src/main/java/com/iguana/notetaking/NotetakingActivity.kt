@@ -20,6 +20,7 @@ class NotetakingActivity : AppCompatActivity() {
     companion object {
         const val PDF_URI_KEY = "PDF_URI"
         const val PDF_TITLE_KEY = "PDF_TITLE"
+        const val PDF_ID_KEY = "PDF_ID"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,8 +33,10 @@ class NotetakingActivity : AppCompatActivity() {
         binding.lifecycleOwner = this
 
         // Intent에서 PDF URI 받기
+        val pdfId = intent.getLongExtra(PDF_ID_KEY, -1)
         val pdfUriString = intent.getStringExtra(PDF_URI_KEY)
         val pdfTitle = intent.getStringExtra(PDF_TITLE_KEY) ?: "무제"
+        viewModel.setPdf(pdfId, pdfUriString, pdfTitle)
         updateTitle(pdfTitle)
 
         setUpToolbar()

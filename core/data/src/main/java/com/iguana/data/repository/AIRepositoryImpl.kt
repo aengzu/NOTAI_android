@@ -1,5 +1,6 @@
 package com.iguana.data.repository
 
+import android.util.Log
 import com.iguana.data.mapper.toDomain
 import com.iguana.data.remote.api.SummarizeApi
 import com.iguana.data.remote.model.SummarizeRequestDto
@@ -15,6 +16,7 @@ class AIRepositoryImpl @Inject constructor(
     private val summarizeApi: SummarizeApi
 ): AIRepository {
     override suspend fun requestSummarization(documentId: Long, pages: List<Int>): Result<Unit> {
+        Log.d("testt", "AI 요약 요청 보냄: $documentId, $pages")
         return withContext(Dispatchers.IO) {
             try {
                 summarizeApi.requestSummarization(SummarizeRequestDto(documentId, pages))

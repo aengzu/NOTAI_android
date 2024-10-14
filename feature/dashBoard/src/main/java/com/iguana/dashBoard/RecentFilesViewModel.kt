@@ -51,6 +51,7 @@ class RecentFilesViewModel @Inject constructor(
             recentFileRepository.insertRecentFile(recentFile.id, recentFile.fileName, recentFile.fileUri)
         }
         val intent = Intent(context, NotetakingActivity::class.java).apply {
+            putExtra("PDF_ID", recentFile.id) // TODO: 서버 제작된다면 ID 만 전달해줘도됨
             putExtra("PDF_URI", recentFile.fileUri)
             putExtra("PDF_TITLE", recentFile.fileName)
         }
@@ -112,6 +113,7 @@ class RecentFilesViewModel @Inject constructor(
 
                         // 4. 선택된 파일을 NotetakingActivity로 전달
                         val intent = Intent(context, NotetakingActivity::class.java).apply {
+                            putExtra("PDF_ID", dummyDocumentId)
                             putExtra("PDF_URI", internalUri.toString())
                             putExtra("PDF_TITLE", fileName)
                         }

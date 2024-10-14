@@ -65,12 +65,12 @@ class SideBarFragment : Fragment() {
     }
 
     // AI 탭으로 전환하는 메서드
-    fun setAiTab() {
+    private fun setAiTab() {
         binding.sideBarViewPager.currentItem = Tab.AI.ordinal
     }
 
     // 녹음 탭으로 전환하는 메서드
-    fun setRecordTab() {
+    private fun setRecordTab() {
         binding.sideBarViewPager.currentItem = Tab.RECORD.ordinal
     }
 
