@@ -48,6 +48,11 @@ class AiFragment : Fragment() {
             binding.aiPageTextView.text = pageNumber?.toString()+" 페이지"
         }
 
+        // 상태와 진행률을 관찰하여 UI 업데이트
+        viewModel.aiRequestStatus.observe(viewLifecycleOwner) { status ->
+            binding.aiStatusTextView.text = status
+        }
+
         // AI 요약 버튼 클릭 리스너 정의
         binding.aiButton.setOnClickListener {
             // 1부터 현재 페이지까지의 페이지 목록을 생성하여 요청
