@@ -1,6 +1,7 @@
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png" alt="Milky Way" width="25" height="25" /> Team29_Android <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png" alt="Milky Way" width="25" height="25" /></h1>
 
-[(English Version)](#english-version) | [(한국어 버전)](#-notai-소개)
+
+[(English description)](#english-description) | [(한국어 버전)](#-notai-소개)
 
 ![image](https://github.com/user-attachments/assets/b3d84499-a30d-4649-abfc-e4599f2594b2)
 
@@ -419,7 +420,7 @@
 <br>
 
 
-# English Version
+# English Description
 
 <img width="1920" height="1080" alt="notai 최종발표 자료 의 사본" src="https://github.com/user-attachments/assets/e1d4d854-6413-409e-b6f0-c9065d031dbb" />
 
