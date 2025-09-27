@@ -1,17 +1,19 @@
 <h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png" alt="Milky Way" width="25" height="25" /> Team29_Android <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png" alt="Milky Way" width="25" height="25" /></h1>
 
+[(English Version)](#english-version) | [(한국어 버전)](#-notai-소개)
+
 ![image](https://github.com/user-attachments/assets/b3d84499-a30d-4649-abfc-e4599f2594b2)
 
 ## 목차
-- [🔹 NOTAI 를 소개합니다!](#-notai-를-소개합니다-)
+- [🔹 NOTAI 를 소개합니다!](#-notai-소개)
 - [👥 팀원 ](#-팀원-)
-- [💼 핵심 기능 ](#-핵심-기능-)
+- [💼 핵심 기능 ](#-핵심-기능)
 - [🔗 링크 모음 ](#-링크-모음)
-- [📁 파일구조 ](#-파일구조-)
-- [💠 ERD ](#-erd-)
+- [📁 파일구조 ](#-파일구조)
+- [💠 ERD ](#-erd)
 - [📄 API 모아보기 ](#-api-모아보기)
-- [⚙️ 기술스택 ](#%EF%B8%8F-기술스택-%EF%B8%8F)
-- [☁️ 추후 개발예정 기능 ](#%EF%B8%8F-추후-개발예정-기능-%EF%B8%8F)
+- [⚙️ 기술스택 ](#️-기술스택-️)
+- [☁️ 추후 개발예정 기능 ](#️-추후-개발예정-기능-️)
 
 <br>
 <br>
@@ -28,7 +30,6 @@
 **1️. 동기화된 강의 자료 3-TYPE**
    - 한눈에 보이는
       - 강의 녹음 → PDF 파일 — 사용자 필기
-
 
  > <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Old%20Key.png" alt="Old Key" width="20" height="20" /> **흩어진 강의자료, 확인하기 불편하셨죠? 강의 흐름에 꼭 맞춰 정리되는 자료로 더 편리하게 학습하세요!**
 
@@ -49,8 +50,6 @@
    | 1. 필기하느라 수업을 놓친 흑우가 있다?! 🐂 | ➡️ | 1. **필기는 AI에게 맡겨요!**<br>강의 집중 UP 📈 |
    | 2. 너무 긴 강의내용... 다 못 보게 되는데... 😅 | ➡️ | 2. **AI 요약으로 핵심만!**<br>학습 효율 UP 🔝 |
    | 3. 이거 시험에는 어떻게 나올지 도저히 모르겠어!! 💢 | ➡️ | 3. **AI가 만들어주는 문제로**<br>더 완벽한 시험대비 💯 |
-
-
 
 <br>
 
@@ -409,5 +408,385 @@
 
 
 > 💡 Note: AI 관련 구현의 상세 코드는 [AI 서버 레포지토리](https://github.com/29ana-notai/Team29_AI)에서 확인할 수 있습니다.
+
+
+
+
+<br>
+
+---
+
+<br>
+
+
+# English Version
+
+<img width="1920" height="1080" alt="notai 최종발표 자료 의 사본" src="https://github.com/user-attachments/assets/e1d4d854-6413-409e-b6f0-c9065d031dbb" />
+
+## Introduction
+**NOTAI** (short for **NOTE + AI**) is an **Android tablet-optimized** application primarily targeting **university students**, designed to support **efficient and effective lecture learning** and **exam preparation**.  
+
+<br>
+
+## Services Provided
+
+**1. Three Types of Synchronized Lecture Materials**
+   - At a glance  
+      - Lecture recording → PDF file → User notes  
+
+ > <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Old%20Key.png" alt="Old Key" width="20" height="20" /> **Tired of scattered lecture materials? With content organized in sync with the lecture flow, studying becomes much more convenient!**
+
+**2. Three-Step AI Learning Assistance**
+   - Voice notes  
+      - Converts lecture recordings into STT (Speech-to-Text)  
+
+   - AI Summary  
+      - Provides a unified summary integrating all three lecture resources  
+
+   - AI Practice Questions  
+      - Generates expected exam questions from the integrated lecture data  
+
+**3. Problems We Aim to Solve & Expected Outcomes**
+
+   | Problems (BIG 3) | ➡️ | Expected Effects |
+   |------------------|----|------------------|
+   | 1. Missing content while taking notes 🐂 | ➡️ | 1. **Let AI handle the notes!** Focus on lectures UP 📈 |
+   | 2. Long lecture content that’s hard to review 😅 | ➡️ | 2. **AI summary highlights only the essentials!** Study efficiency UP 🔝 |
+   | 3. No idea what might show up on the exam 💢 | ➡️ | 3. **AI-generated practice questions** for better exam prep 💯 |
+
+<br>
+
+# 📌 Core Features
+
+| Feature Image | Feature Description |
+|--------|---------------------|
+| <img src="https://github.com/user-attachments/assets/d5a05573-fdfb-4c69-bd73-5ac7eb8bf5b1" width="300" alt="Note App Feature">  | <b>Basic Note App Features</b><div style="margin: 5px 0;"><hr></div> <ul><li>View PDF files and take notes with text annotations</li><li>Flexible screen layout using slider</li></ul> |
+| <img src="https://github.com/user-attachments/assets/2f329d1f-b585-4fec-b6e5-21ae05828fa0" width="300" alt="Folder and File Management">  | <b>Folder & File Management</b><div style="margin: 5px 0;"><hr></div><ul><li>View and manage files/folders in the document tab (create, delete, rename)</li><li>Data persistence through server synchronization</li></ul> |
+| <img src="https://github.com/user-attachments/assets/dc047197-578f-4206-83c4-deaf947b15b0" width="300" alt="Recording Conversion Feature">  | <b>AI-based Recording Conversion (STT)</b><div style="margin: 5px 0;"><hr></div><ul><li>Records page-turn events during lectures to enable STT results per page</li></ul> |
+| <img src="https://github.com/user-attachments/assets/db6b163e-6cf6-41fc-b133-7f6bc7866201" width="300" alt="Page Summary Feature">  | <b>AI-based Page Summarization & Question Generation</b><div style="margin: 5px 0;"><hr></div><ul><li>Generates summaries and practice questions based on both lecture recordings and notes</li></ul>|
+
+<br>
+
+
+# 📁 File Structure 
+
+### Android
+
+**Clean Architecture & MVVM & Multi-Module**
+- Separate business logic, data processing, and UI clearly through Clean Architecture  
+- Improve modular independence by separating common features into individual modules with a multi-module structure  
+- Make testing and maintenance easier with MVVM  
+- Reduce build time since there is no need to build all modules at once  
+
+```
+📦 notai
+├───📂app
+│   └───📂src
+│       └───📂main
+│           ├───📂java/com/iguana/notai
+│           │   └───📄NotaiApplication.kt
+│           └───📂res
+│               ├───📂layout
+│               └───📂values
+│
+├───📂build-logic (Centralized management for build settings commonly used across multiple modules, such as plugin application, dependency management, and compile options)
+│
+├───📂core
+│   ├───📂data
+│   │       ├───📂di (Modules related to dependency injection)
+│   │       ├───📂local (Modules related to database)
+│   │       │   ├───📂dao
+│   │       │   ├───📂db
+│   │       │   ├───📂entity
+│   │       │   └───📂files
+│   │       ├───📂mapper (Modules related to separating data models)
+│   │       ├───📂remote
+│   │       │   |───📂api (Defines API service interfaces)
+│   │       │   └───📂model (Defines DTOs)
+│   │       ├───📂repository (Implements abstractions provided in domain/repository for remote API and local DB) 
+│   │       └───📂utils (Formatting or extension function utilities)
+│   │
+│   ├───📂domain
+│   │       ├───📂model (Data models used in business logic)
+│   │       ├───📂repository
+│   │       ├───📂usecase (Use cases handling domain logic)
+│   │       └───📂utils
+│   │
+│   ├───📂designsystem (App-wide settings for colors, themes, and fonts)
+│   │
+│   └───📂ui
+│       ├───📄BaseActivity.kt (Common activity including the side tab)
+│       ├───📄SideTabLayoutFragment.kt (Side tab is commonly used, so it is separately defined for reusability)
+│       └───📄StatusBarManager.kt
+│
+└───📂feature (Each feature separated into individual modules)
+    ├───📂ai
+    ├───📂community
+    ├───📂dashBoard
+    ├───📂documents
+    ├───📂favorites
+    ├───📂login
+    ├───📂notetaking
+    ├───📂settings
+    └───📂userInfo
+```
+
+### Backend
+
+**CQRS Pattern & Command Pattern**
+- Separate data modification and query operations for optimized performance  
+- Improve efficiency by allowing future separation of data storage  
+- Guarantee independence by separating requests between the presentation layer and the application layer  
+- Enable flexible expansion and modification of business logic  
+
+```
+📦notai
+└── 📁src
+    ├── 📁main
+    │   ├── 📁java
+    │   │   └── 📁notai
+    │   │       ├── 📄BackendApplication.java
+    │   │       ├── 📁annotation
+    │   │       ├── 📁auth `Resolver and JWT components for user login`
+    │   │       ├── 📁client `Handles external API requests`
+    │   │       │   ├── 📄HttpInterfaceUtil.java
+    │   │       │   ├── 📁ai `AI server API`
+    │   │       │   ├── 📁oauth `OAuth API for user login`
+    │   │       │   └── 📁slack `Backend server Slack Webhook`
+    │   │       ├── 📁comment
+    │   │       ├── 📁common
+    │   │       │   ├── 📁config `Application settings such as Swagger, QueryDSL`
+    │   │       │   ├── 📁converter `JSON serialization/deserialization`
+    │   │       │   ├── 📁domain `Common domain folder including RootEntity`
+    │   │       │   ├── 📁exception `Global exception handling`
+    │   │       │   │   ├── 📄ApplicationException.java
+    │   │       │   │   ├── 📄ErrorMessages.java
+    │   │       │   │   ├── 📄ExceptionControllerAdvice.java
+    │   │       │   │   ├── 📄ExceptionResponse.java
+    │   │       │   │   └── 📁type
+    │   │       │   └── 📁utils
+    │   │       ├── 📁document
+    │   │       │   ├── 📁application `Business logic layer`
+    │   │       │   │   ├── 📄DocumentQueryService.java `Service for C,U,D operations (CQRS pattern)`
+    │   │       │   │   ├── 📄DocumentService.java `Read-only service (CQRS pattern)`
+    │   │       │   │   └── 📁result `Response DTOs in the application layer`
+    │   │       │   │       ├── 📄DocumentFindResult.java
+    │   │       │   │       ├── 📄DocumentSaveResult.java
+    │   │       │   │       └── 📄DocumentUpdateResult.java
+    │   │       │   ├── 📁domain `Domain model layer`
+    │   │       │   │   ├── 📄Document.java
+    │   │       │   │   └── 📄DocumentRepository.java `JPA repository interface`
+    │   │       │   ├── 📁presentation `Presentation layer`
+    │   │       │   │   ├── 📄DocumentController.java `API endpoint`
+    │   │       │   │   ├── 📁request `API request DTO`
+    │   │       │   │   │   ├── 📄DocumentSaveRequest.java
+    │   │       │   │   │   └── 📄DocumentUpdateRequest.java
+    │   │       │   │   └── 📁response `API response DTO`
+    │   │       │   │       ├── 📄DocumentFindResponse.java
+    │   │       │   │       ├── 📄DocumentSaveResponse.java
+    │   │       │   │       └── 📄DocumentUpdateResponse.java
+    │   │       │   └── 📁query `Query repository for read-only operations (CQRS pattern)`
+    │   │       │       ├── 📄DocumentQueryRepository.java
+    │   │       │       └── 📄DocumentQueryRepositoryImpl.java
+    │   │       ├── 📁folder
+    │   │       ├── 📁llm
+    │   │       ├── 📁member
+    │   │       ├── 📁ocr
+    │   │       ├── 📁pageRecording
+    │   │       ├── 📁pdf
+    │   │       ├── 📁post
+    │   │       ├── 📁problem
+    │   │       ├── 📁recording
+    │   │       ├── 📁stt
+    │   │       ├── 📁sttTask
+    │   │       └── 📁summary
+    │   └── 📁resources
+    │       ├── 📄application-local.yml
+    │       └── 📄application.yml
+    └── 📁test
+        └── 📁java
+            └── 📁notai
+                ├── 📄BackendApplicationTests.java
+                ├── 📁annotation
+                ├── 📁client
+                ├── 📁folder
+                ├── 📁llm
+                ├── 📁ocr
+                ├── 📁pageRecording
+                ├── 📁recording
+                └── 📁stt
+
+```
+
+<br>
+
+# 💠 ERD
+![image](https://github.com/user-attachments/assets/e0e18ad0-c6f1-4514-bb49-8e75860d4259)
+
+<br>
+
+# 📄 API Overview
+
+**Member API**
+
+| Feature            | URL                                  | Method | Status | Description |
+|--------------------|--------------------------------------|--------|--------|-------------|
+| Kakao Login        | `/api/members/oauth/login/{oauthProvider}` | POST   | Done   |             |
+| Token Refresh      | `/api/members/token/refresh`        | POST   | Done   |             |
+| Get My Profile     | `/api/members/me`                   | GET    | Done   |             |
+
+
+**Document API**
+
+| Feature                  | URL                                                     | Method | Status | Description |
+|---------------------------|---------------------------------------------------------|--------|--------|-------------|
+| Upload Document to Folder | `/api/folders/{folderId}/document`                      | POST   | Done   |             |
+| Get Folder Details        | `/api/folders/{folderId}`                               | GET    | Done   |             |
+| Get Multiple Documents    | `/api/folders/{folderId}/documents`                     | GET    | Done   |             |
+| Get Document Details      | `/api/folders/{folderId}/documents/{documentId}`        | GET    | Done   |             |
+| Update Document           | `/api/folders/{folderId}/documents/{documentId}`        | PUT    | Done   |             |
+| Delete Document           | `/api/folders/{folderId}/documents/{documentId}`        | DELETE | Done   |             |
+| Create Folder             | `/api/folders`                                         | POST   | Done   |             |
+| Get Folders               | `/api/folders?parentFolderId={parentFolderId}`          | GET    | Done   |             |
+| Delete Folder             | `/api/folders/{folderId}`                               | DELETE | Done   |             |
+| Move Folder (Change Path) | `/api/folders/{folderId}/move`                          | POST   | Done   |             |
+
+**Annotation API**
+
+| Feature          | URL                                                   | Method | Status | Description |
+|------------------|-------------------------------------------------------|--------|--------|-------------|
+| Add Annotation   | `/api/documents/{documentId}/annotations`             | POST   | Done   |             |
+| Get Annotations  | `/api/documents/{documentId}/annotations`             | GET    | Done   |             |
+| Update Annotation| `/api/documents/{documentId}/annotations/{annotationId}` | PUT    | Done   |             |
+| Delete Annotation| `/api/documents/{documentId}/annotations/{annotationId}` | DELETE | Done   |             |
+
+
+**Record API**
+
+| Feature             | URL | Method | Status | Description |
+|---------------------|-----|--------|--------|-------------|
+| Page-Turn Event     | `/api/documents/{documentId}/recordings/page-turns` | POST | Done | |
+| Upload Recording    | `/api/documents/{documentId}/recordings` | POST | Done | |
+| Upload STT Result (Processed on server) | `/api/documents/{documentId}/recordings/{recordingId}/stt-results` | POST | Done | |
+
+
+**Summarize API**
+
+| Feature | URL | Method | Status | Description |
+|---------|-----|--------|--------|-------------|
+| STT Result | `/api/ai/` | POST | Done | |
+| Summarization & Question Generation (client → server) | `/api/ai/llm` | POST | Done | |
+| OCR (server → AI server) | `/api/ai/ocr` | POST | Not started | |
+| Summarization & Question Result Delivery (AI server → server) | `/api/ai/llm/callback` | POST | Done | The AI server sends results to the web server as soon as each page’s summarization is completed |
+| Check Summarization/Question Status (client → server) | `/api/ai/llm/status/{documentId}` | GET | Done | |
+| Check Summarization/Question Status by Page (client → server) | `/api/ai/llm/status/{documentId}/{pageNumber}` | GET | Done | |
+| Get Summarization Results (client → server) | `/api/ai/llm/results/{documentId}` | GET | Done | |
+| Get Summarization & Questions by Page (client → server) | `/api/ai/llm/results/{documentId}/{pageNumber}` | GET | Done | |
+| Check Task Status | `/api/ai/tasks/{taskId}` | GET | Done | Even if a non-existent task is requested, the response will be PENDING for now |
+
+<br>
+
+# 🛠️ Tech Stack 🛠️
+![image](https://github.com/user-attachments/assets/b001bb8b-950a-493a-900b-3e0094a60194)
+
+<br>
+
+
+## 🏛️ Software Architecture
+### Key Tech Stack
+- **Kotlin**: Android client development  
+- **Spring Boot**: Backend application development  
+- **MySQL**: Database management  
+- **NGINX**: Reverse proxy & load balancing  
+- **Docker**: Containerization & microservice management  
+- **Flask**: Lightweight web framework for AI server  
+- **PyTorch**: Deep learning framework  
+- **Tesseract OCR**: PDF text extraction  
+- **OpenAI Whisper**: Speech recognition & STT  
+- **GitHub Actions**: CI/CD automation  
+
+<br>
+
+### Architecture Overview
+#### 1. Client
+- **Kotlin** Android app  
+
+#### 2. Spring Main Server
+- **Docker** containerized environment  
+- **NGINX** → **Spring Boot** server  
+- **Main Functions**
+  - Provide **REST API**  
+  - Manage **MySQL** DB  
+  - User management: **Kakao OAuth** authentication  
+  - PDF/audio file management  
+  - Real-time note-taking  
+  - Folder/document structuring  
+  - Recording/STT management:
+    - Page-turn event–based recording segmentation  
+    - Mapping **STT** results to each page  
+    - **OCR** processing: asynchronous Tesseract-based OCR  
+
+#### 3. Flask AI Server
+- **STT Processing**:
+  - Uses **Whisper** model  
+  - Limited to 30% GPU VRAM per worker, supports 3 parallel workers  
+  - Audio preprocessing (noise reduction, normalization)  
+- **LLM Processing**:
+  - Integrated with **OpenAI API**  
+  - Generates lecture summaries and exam questions  
+- **Task Management**:
+  - **Celery** + **Redis** for asynchronous queue  
+
+<br>
+
+#### 4. CI/CD
+- Automated with **GitHub Actions**
+
+<br>
+
+# Code Explanation by Track
+
+### Android
+
+**Key Features Developed**
+- **Multi-Module Architecture**: Chosen to maximize collaboration efficiency. We believed that connecting features across modules would deepen our understanding of the code. Therefore, we split development into before/after entering the note-taking screen.  
+- **Clean Architecture + MVVM**  
+- **STT (Speech-To-Text) Retrieval**: Since the Android market lacks a proper note-taking app that integrates voice-to-text conversion, we focused heavily on developing this feature.  
+- **Page-Turn Event Handling**: Developed to combine OCR and audio sync at the page level, enabling accurate summarization.  
+- **AI Server Integration**: As most core features rely on AI, stable communication with the server was emphasized.  
+
+---
+
+### Backend
+
+**Key Features Developed**
+1. **STT Result Matching Algorithm**  
+   When the user flips through PDF pages, timestamps are recorded. These timestamps are compared with word-level timestamps from STT results to automatically classify spoken content by page.  
+
+2. **AI-Based Study Material Generation**  
+   For each page, the system integrates document OCR text, STT results from lecture audio, and user notes. This combined dataset is sent to the AI model to generate context-aware summaries and predicted exam questions. By analyzing these three sources together, the study materials better reflect the actual learning context.  
+
+---
+
+### Core Feature Workflow
+
+**Lecture Recording and Note-Taking**
+1. User uploads a PDF document  
+2. Timestamps are recorded each time a page is turned  
+3. Recording file is created and uploaded  
+4. AI server converts audio to text  
+5. Word-level STT timestamps are matched with page-turn timestamps  
+6. Audio text is classified by page  
+
+**AI-Based Summaries and Exam Questions**
+1. Extract text from PDF via OCR  
+2. Convert lecture audio to text using STT  
+3. Collect user notes  
+4. Integrate the three datasets for processing  
+5. Generate summaries and predicted exam questions via OpenAI API  
+
+---
+
+> 💡 Note: Detailed implementations related to AI can be found in the [AI Server Repository](https://github.com/29ana-notai/Team29_AI).
 
 
